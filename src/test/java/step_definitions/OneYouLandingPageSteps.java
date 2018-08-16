@@ -21,7 +21,7 @@ public class OneYouLandingPageSteps extends BaseClass {
 		PageFactory.initElements(driver, ReadPropertiesFile.class);
 		String browser = rp.ReadFile("browser", "config.properties");
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rwadhawa\\Desktop\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Automation\\drivers\\chromedriver.exe");
 			BaseClass.driver = new ChromeDriver();
 			// driver.manage().deleteAllCookies();
 			BaseClass.driver.manage().window().maximize();

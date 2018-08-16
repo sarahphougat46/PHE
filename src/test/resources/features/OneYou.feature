@@ -1,7 +1,7 @@
-@tag1 
 Feature: OneYou landing page 
 	As a User I want to start OneYou quiz
-
+	
+@tag1 
 Scenario Outline: Quiz Time 
 	Given I start quiz on OneYou website 
 	When I fill first page "<Name>","<Gender>","<Age>" and click Next 
